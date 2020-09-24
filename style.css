@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+main {
+    width: 400px;
+    height: 280px;
+    background-color: red;
+    border-radius: 20px;
+    /* border: solid purple 4px; */
+    margin-bottom: 20px;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+    font-size: 200%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    height: auto;
+    /* border: solid black 2px; */
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: auto;
+    /* border: solid black 5px; */
+    margin-bottom: 20px;
+}
+
+button {
+    width: 40%;
+}
+
+input {
+    text-align: center;
+    font-size: 150%;
+}
+
+.hello {
+    background-color: red;
+    height: 80px;
+    font-size: 80px;
+    font-weight: 800;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    /* border: solid green 4px; */
+}
+
+.my-name-is {
+    background-color: red;
+    height: 40px;
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    /* border: dotted black 2px; */
+}
+
+.name {
+    background-color: white;
+    height: 120px;
+    font-size: 50px;
+    font-family: cursive;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 24px;
+    /* border: solid black 2px; */
+    
+}
+
+.upper-section{
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.lower-section{
+    background-color: lightsalmon;
+    border-radius: 10px;
+}
